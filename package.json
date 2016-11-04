@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "env NODE_ENV=. node index.js",
-    "test":  "env NODE_PATH=. ./node_modules/.bin/mocha -A -u exports --colors --recursive tests/*.test.js",
+    "test":  "env NODE_PATH=. ./node_modules/.bin/mocha -u exports --colors --recursive tests/*.test.js",
     "coverage": "env NODE_PATH=. istanbul cover _mocha **/*.js"
   },
   "keywords": [
