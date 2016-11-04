@@ -1,0 +1,30 @@
+{
+  "name": "game-genie",
+  "version": "1.0.0",
+  "description": "encode and decode codes from gamegenie",
+  "main": "index.js",
+  "scripts": {
+    "start": "env NODE_ENV=. node index.js",
+    "test":  "env NODE_PATH=. ./node_modules/.bin/mocha -A -u exports --colors --recursive tests/*.test.js",
+    "coverage": "env NODE_PATH=. istanbul cover _mocha **/*.js"
+  },
+  "keywords": [
+    "gamegenie",
+    "game",
+    "genie",
+    "nintendo",
+    "nes",
+    "snes",
+    "gameboy"
+  ],
+  "author": "Guy Bianco IV <gjbiancoiv@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.16.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2"
+  }
+}
