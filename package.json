@@ -1,11 +1,11 @@
 {
   "name": "game-genie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "encode and decode codes from gamegenie",
   "main": "index.js",
   "scripts": {
     "start": "env NODE_ENV=. node index.js",
-    "test":  "env NODE_PATH=. ./node_modules/.bin/mocha -u exports --colors --recursive tests/*.test.js",
+    "test": "env NODE_PATH=. ./node_modules/.bin/mocha -u exports --colors --recursive tests/*.test.js",
     "coverage": "env NODE_PATH=. istanbul cover _mocha **/*.js"
   },
   "keywords": [
