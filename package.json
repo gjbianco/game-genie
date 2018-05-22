@@ -9,6 +9,8 @@
     "coverage": "env NODE_PATH=. istanbul cover _mocha **/*.js"
   },
   "keywords": [
+    "game-genie",
+    "game genie",
     "gamegenie",
     "game",
     "genie",
